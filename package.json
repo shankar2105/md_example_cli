@@ -1,0 +1,29 @@
+{
+  "name": "md_example_cli",
+  "version": "1.0.0",
+  "description": "Mdata example CLI application",
+  "identifier": "net.maidsafe.examples.mdexamplecli",
+  "main": "index.js",
+  "author": {
+    "name": "MaidSafe"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shankar2105@github.com/shankar2105/md_example_cli.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shankar2105/md_example_cli/issues"
+  },
+  "homepage": "https://github.com/shankar2105/md_example_cli#readme",
+  "dependencies": {
+    "cli-color": "^1.2.0",
+    "enum": "^2.4.0",
+    "fs-extra": "^2.1.2",
+    "inquirer": "^3.0.6",
+    "safe-app": "git+https://github.com/maidsafe/safe_app_nodejs.git"
+  }
+}
